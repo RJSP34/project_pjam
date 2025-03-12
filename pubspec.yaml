@@ -1,0 +1,36 @@
+name: project_pjam_2023
+description: Projeto de Aplicações Móveis 2023/24
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_dotenv: ^5.1.0
+  provider: ^6.1.1
+  http: ^1.1.0
+  flutter_secure_storage: ^9.0.0
+  jwt_decoder: ^2.0.1
+  intl: ^0.18.1
+  random_avatar: ^0.0.8
+  image_picker: ^1.0.4
+  flutter_typeahead: ^5.0.1
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  mockito: ^5.4.4
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
